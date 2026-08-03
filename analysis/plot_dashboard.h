@@ -1,0 +1,13 @@
+//
+// Created by aniru on 30/07/2026.
+//
+
+#ifndef ELECTRONIC_ORDER_BOOK_PLOT_DASHBOARD_H
+#define ELECTRONIC_ORDER_BOOK_PLOT_DASHBOARD_H
+
+
+class plot_dashboard {
+};
+
+
+#endif //ELECTRONIC_ORDER_BOOK_PLOT_DASHBOARD_H

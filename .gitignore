@@ -1,0 +1,44 @@
+# CLion and JetBrains
+.idea/
+cmake-build-*/
+out/
+
+# CMake build directories
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compiled C++ files
+*.exe
+*.dll
+*.lib
+*.obj
+*.o
+*.pdb
+*.ilk
+
+# Generated binary market data
+*.bin
+
+# Python temporary files
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Raw or processed market data
+data/lobster/
+data/processed/
+
+# Generated telemetry and benchmark outputs
+results/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
