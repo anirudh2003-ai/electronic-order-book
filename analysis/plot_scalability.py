@@ -1,18 +1,28 @@
 from pathlib import Path
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 import matplotlib.pyplot as plt
 import pandas as pd
 
 
-INPUT_PATH = Path(
-    "results/scalability/lobster_scalability.csv"
-)
-UDP_INPUT_PATH = Path(
-    "results/scalability/udp_scalability.csv"
+INPUT_PATH = (
+        PROJECT_ROOT
+        / "results"
+        / "scalability"
+        / "lobster_scalability.csv"
 )
 
-OUTPUT_DIRECTORY = Path(
-    "results/lobster_charts"
+UDP_INPUT_PATH = (
+        PROJECT_ROOT
+        / "results"
+        / "scalability"
+        / "udp_scalability.csv"
+)
+
+OUTPUT_DIRECTORY = (
+        PROJECT_ROOT
+        / "results"
+        / "lobster_charts"
 )
 
 
