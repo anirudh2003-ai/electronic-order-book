@@ -1,0 +1,1 @@
+timestamp_ns,wall_time_ns,event_index,participant_id,symbol_id,best_bid,best_ask,mid_price,strategy_bid,strategy_ask,realised_pnl,unrealised_pnl,total_pnl,cash_balance,account_equity,inventory,maximum_absolute_position,market_spread,strategy_spread,queue_depth,events_processed,gaps_detected,events_recovered,recovery_misses,feed_state
