@@ -1,10 +1,8 @@
 # Electronic Order Book
 
-A **C++20 electronic trading-system simulator** built to test a harder question than “can an order book match orders correctly?”
+A C++20 electronic trading-system simulator built to answer a harder question: can an order-book engine process large, stateful market-event workloads at stable latency while preserving price-time priority, maintaining valid internal state, enforcing risk controls, tracking positions and P&L, and recovering correctly from missing sequenced updates?
 
-This project evaluates whether a limit-order-book engine can remain **fast, internally consistent and operationally resilient** when subjected to realistic event-driven workloads, sequenced market-data handling, recovery from missing updates, strategy interaction, risk controls, position tracking, P&L accounting and telemetry-driven performance analysis.
-
-Rather than stopping at a toy matching engine, the repository brings together the core components that sit around a trading engine in practice: **deterministic replay, binary message handling, UDP-style sequencing and recovery, market-making logic, pre-trade risk checks, participant-level P&L, and Python-based analysis of latency, throughput, memory and recovery behaviour**.
+Rather than stopping at a basic matching engine, the project brings together the wider components required around an electronic trading system: deterministic market-event replay, binary message handling, UDP-style sequencing and recovery, market-making strategy logic, pre-trade risk checks, participant-level position and P&L accounting, telemetry, and Python-based performance analysis.
 
 The system is evaluated on a **LOBSTER-derived event stream** and on **multi-million-event replay workloads**, so the emphasis is not just on implementation, but on demonstrating correctness, scalability and engineering judgement in a way that is relevant to **exchanges, banks, hedge funds, market makers and systematic trading teams**.
 
