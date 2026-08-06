@@ -7,13 +7,13 @@ Rather than stopping at a basic matching engine, the project brings together the
 The system is evaluated on a **LOBSTER-derived event stream** and on **multi-million-event replay workloads**, so the emphasis is not just on implementation, but on demonstrating correctness, scalability and engineering judgement in a way that is relevant to **exchanges, banks, hedge funds, market makers and systematic trading teams**.
 
 > **Start with the full report:**  
-> [Read the performance, correctness and recovery report](docs/performance_report.md)
+> [Read the performance, correctness and recovery report](docs/electronic_order_book_performance_report_graph_analysis.md)
 >
 > The report explains the problem being solved, system design, validation methodology, LOBSTER conversion, risk and P&L workflow, direct-replay scalability, UDP fault injection, graph interpretation, limitations and next steps.
 >
 > Downloadable versions:
-> [PDF](docs/electronic_order_book_performance_report.pdf) ·
-> [Word](docs/electronic_order_book_performance_report.docx)
+> [PDF](docs/electronic_order_book_performance_report_graph_analysis.pdf) ·
+> [Word](docs/electronic_order_book_performance_report_graph_analysis.docx)
 
 ---
 
